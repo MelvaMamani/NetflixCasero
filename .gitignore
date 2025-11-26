@@ -1,0 +1,15 @@
+# Ignorar todo el contenido de C:/srv por defecto
+*
+
+# Pero permitir la carpeta de tu proyecto
+!NetflixCasero/
+!NetflixCasero/**
+
+# Ignorar carpetas de Visual Studio
+.vs/
+*.vsidx
+
+# Ignorar volúmenes de Docker
+jellyfin/
+jellyseerr/
+mariadb/
